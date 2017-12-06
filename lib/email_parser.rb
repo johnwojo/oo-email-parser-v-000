@@ -14,7 +14,7 @@ attr_accessor :emails
 
   def parse
     email_array = emails.split(", ")
-    email_array
+    email_array.uniq
   end
 
 end

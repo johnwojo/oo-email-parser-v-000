@@ -13,6 +13,7 @@ attr_accessor :emails
     self.parse(emails)
   end
 
+
   def self.parse(emails)
     email_array = emails.split(",")
     email_array
